@@ -17,6 +17,7 @@ Bootstrap(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "postgresql+psycopg2://postgres:Paxton26!!!@"
                                                                        "localhost:5432/Blog_DB")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# had to split because create_engine command requires prefix of postgresql, not postgres
 create_engine(f'postgresql://{os.environ.get("DATABASE_URL").split("//", 1)[1]}')
 db = SQLAlchemy(app)
 
