@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Update Keys">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Add psycopg2.connect command">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629477765452</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add psycopg2.connect command">
+      <created>1629478684368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629478684368</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +199,7 @@
     <MESSAGE value="Enabled db.create_all()" />
     <MESSAGE value="Disabled db.create_all()" />
     <MESSAGE value="Update Keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Keys" />
+    <MESSAGE value="Add psycopg2.connect command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add psycopg2.connect command" />
   </component>
 </project>
