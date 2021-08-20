@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Add .gitignore file">
+    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Add Procfile, update gunicorn to requirements, change port to 8000">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello_flask" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629473140669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Procfile, update gunicorn to requirements, change port to 8000">
+      <created>1629473535517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629473535517</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore file" />
+    <MESSAGE value="Add Procfile, update gunicorn to requirements, change port to 8000" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Procfile, update gunicorn to requirements, change port to 8000" />
   </component>
 </project>
