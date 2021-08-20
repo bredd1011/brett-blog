@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Remove port in main">
+    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Updated all requirements to recent versions.  Removed email validator throwing Heroku error.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629474068986</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated all requirements to recent versions.  Removed email validator throwing Heroku error.">
+      <created>1629474849568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629474849568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +146,7 @@
     <MESSAGE value="Add .gitignore file" />
     <MESSAGE value="Add Procfile, update gunicorn to requirements, change port to 8000" />
     <MESSAGE value="Remove port in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove port in main" />
+    <MESSAGE value="Updated all requirements to recent versions.  Removed email validator throwing Heroku error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated all requirements to recent versions.  Removed email validator throwing Heroku error." />
   </component>
 </project>
