@@ -11,6 +11,7 @@ from flask_gravatar import Gravatar
 from sqlalchemy import desc
 from functools import wraps
 import os
+import psycopg2
 
 
 app = Flask(__name__)
@@ -21,7 +22,9 @@ Bootstrap(app)
 # #CONNECT TO DB
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "sqlite:///blog.db")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 db = SQLAlchemy(app)
+psycopg2.connect(db)
 
 login_manager = LoginManager()
 login_manager.init_app(app)
