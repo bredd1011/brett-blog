@@ -22,7 +22,8 @@ Bootstrap(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "postgresql+psycopg2://postgres:Paxton26!!!@"
                                                                        "localhost:5432/Blog_DB")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-create_engine("postgresql+psycopg2://postgres:Paxton26!!!@localhost:5432/Blog_DB")
+# create_engine("postgresql+psycopg2://postgres:Paxton26!!!@localhost:5432/Blog_DB")
+create_engine(os.environ.get("DATABASE_URL"))
 db = SQLAlchemy(app)
 
 
@@ -83,7 +84,7 @@ class Comment(db.Model):
     parent_post = relationship("BlogPost", back_populates="post_comments")
 
 
-db.create_all()
+# db.create_all()
 
 
 @app.route('/')
