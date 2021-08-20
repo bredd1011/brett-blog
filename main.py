@@ -8,7 +8,7 @@ from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
-from sqlalchemy import desc
+from sqlalchemy import desc, create_engine
 from functools import wraps
 import os
 
@@ -19,9 +19,12 @@ ckeditor = CKEditor(app)
 Bootstrap(app)
 
 # #CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "sqlite:///blog.db")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "postgresql+psycopg2://postgres:Paxton26!!!@"
+                                                                       "localhost:5432/Blog_DB")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+create_engine("postgresql+psycopg2://postgres:Paxton26!!!@localhost:5432/Blog_DB")
 db = SQLAlchemy(app)
+
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -80,7 +83,7 @@ class Comment(db.Model):
     parent_post = relationship("BlogPost", back_populates="post_comments")
 
 
-# db.create_all()
+db.create_all()
 
 
 @app.route('/')
