@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Database URL revision 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="92f2af31-0b2c-433c-9bc4-d699f17fdc37" name="Changes" comment="Webpage link edits">
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629494227851</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Webpage link edits">
+      <created>1629495230700</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1629495230700</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +337,7 @@
     <MESSAGE value="Database URL revision" />
     <MESSAGE value="Database URL revision 2" />
     <MESSAGE value="Database URL revision 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database URL revision 3" />
+    <MESSAGE value="Webpage link edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Webpage link edits" />
   </component>
 </project>
